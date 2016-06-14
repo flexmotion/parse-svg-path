@@ -1,5 +1,7 @@
 
-module.exports = parse
+if (typeof module === "object" && module.exports) {
+	module.exports = parse;
+}
 
 /**
  * expected argument lengths
